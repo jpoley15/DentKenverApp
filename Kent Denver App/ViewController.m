@@ -1,0 +1,27 @@
+//
+//  ViewController.m
+//  Kent Denver App
+//
+//  Created by Jeremy M. Poley on 2/24/15.
+//  Copyright (c) 2015 Jeremy M. Poley. All rights reserved.
+//
+
+#import "ViewController.h"
+
+@interface ViewController ()
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+@end

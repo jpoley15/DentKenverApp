@@ -105,7 +105,7 @@
         <!--Title-->
         <scene sceneID="boQ-MV-0I4">
             <objects>
-                <viewController id="EO0-Nq-jTc" sceneMemberID="viewController">
+                <viewController id="EO0-Nq-jTc" customClass="LunchViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="k76-ZN-czV"/>
                         <viewControllerLayoutGuide type="bottom" id="O1y-Q0-PZ5"/>
@@ -126,10 +126,17 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e7f-WU-7u7">
+                                <rect key="frame" x="16" y="81" width="568" height="504"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="8xN-27-c7k"/>
+                    <connections>
+                        <outlet property="site" destination="e7f-WU-7u7" id="0S4-v8-yZi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IDr-fL-hFt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

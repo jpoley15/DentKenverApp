@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B83578DF-3A69-40C1-AFDB-BA7BC64B588E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Kent Denver App</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3622D7694AC4CE99BA93E6686ECD9D3F1976185A</key>
+		<string>https://github.com/jpoley15/DentKenverApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Kent Denver App.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3622D7694AC4CE99BA93E6686ECD9D3F1976185A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jpoley15/DentKenverApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3622D7694AC4CE99BA93E6686ECD9D3F1976185A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3622D7694AC4CE99BA93E6686ECD9D3F1976185A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Kent%20Denver%20App</string>
+		</dict>
+	</array>
+</dict>
+</plist>

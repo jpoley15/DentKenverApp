@@ -14,6 +14,7 @@
 		330432101A9CDF8500BAD93B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3304320F1A9CDF8500BAD93B /* Images.xcassets */; };
 		330432131A9CDF8500BAD93B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 330432111A9CDF8500BAD93B /* LaunchScreen.xib */; };
 		3304321F1A9CDF8500BAD93B /* Kent_Denver_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3304321E1A9CDF8500BAD93B /* Kent_Denver_AppTests.m */; };
+		339835681AB881EA000E1926 /* LunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339835671AB881EA000E1926 /* LunchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		330432181A9CDF8500BAD93B /* Kent Denver AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kent Denver AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3304321D1A9CDF8500BAD93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3304321E1A9CDF8500BAD93B /* Kent_Denver_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kent_Denver_AppTests.m; sourceTree = "<group>"; };
+		339835661AB881EA000E1926 /* LunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunchViewController.h; sourceTree = "<group>"; };
+		339835671AB881EA000E1926 /* LunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		330432011A9CDF8500BAD93B /* Kent Denver App */ = {
 			isa = PBXGroup;
 			children = (
+				339835661AB881EA000E1926 /* LunchViewController.h */,
+				339835671AB881EA000E1926 /* LunchViewController.m */,
 				330432061A9CDF8500BAD93B /* AppDelegate.h */,
 				330432071A9CDF8500BAD93B /* AppDelegate.m */,
 				330432091A9CDF8500BAD93B /* ViewController.h */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3304320B1A9CDF8500BAD93B /* ViewController.m in Sources */,
+				339835681AB881EA000E1926 /* LunchViewController.m in Sources */,
 				330432081A9CDF8500BAD93B /* AppDelegate.m in Sources */,
 				330432051A9CDF8500BAD93B /* main.m in Sources */,
 			);
@@ -414,6 +420,7 @@
 				330432241A9CDF8500BAD93B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		330432251A9CDF8500BAD93B /* Build configuration list for PBXNativeTarget "Kent Denver AppTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				330432271A9CDF8500BAD93B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
